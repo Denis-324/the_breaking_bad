@@ -1,0 +1,13 @@
+@import "../../styles/vars.scss";
+.flex {
+  height: calc(100vh - 160px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 50px;
+  color: $color-white;
+}

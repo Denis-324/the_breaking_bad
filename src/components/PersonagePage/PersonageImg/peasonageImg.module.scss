@@ -1,0 +1,32 @@
+.img_box {
+  position: relative;
+  max-width: 100%;
+  grid-row: span 2;
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+}
+
+.img_heart {
+  position: absolute;
+  right: 15px;
+  bottom: -15px;
+  z-index: 2;
+  cursor: pointer;
+}
+@media (max-width: 610px) {
+  .img_box {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .img {
+    width: 100%;
+    object-fit: cover;
+  }
+}

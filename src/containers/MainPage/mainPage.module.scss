@@ -1,0 +1,32 @@
+@import "../../styles/vars.scss";
+.container {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0 15px 0;
+}
+.box {
+  padding: 17px;
+  background-color: $bg-purple;
+  box-shadow: $shadow-white;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.title {
+  color: $color-white;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.sub_title {
+  color: $color-white;
+  line-height: 1.5;
+  font-size: 25px;
+}
+.text {
+  color: $color-white;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 14px;
+}

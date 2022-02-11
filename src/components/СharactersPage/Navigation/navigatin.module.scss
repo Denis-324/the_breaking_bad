@@ -1,0 +1,15 @@
+.navigation_box {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  @media (max-width: 555px) {
+    justify-content: center;
+  }
+}
+.btn :disabled {
+  box-shadow: 0px 0px 10px 2px rgb(238, 79, 68);
+}
+.btn:hover :disabled {
+  background: rgb(238, 79, 68);
+  color: rgb(29, 28, 28);
+}

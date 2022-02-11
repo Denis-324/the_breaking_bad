@@ -1,0 +1,14 @@
+@import "../../styles/vars.scss";
+.flex {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg-purple;
+}
+
+.text {
+  text-align: center;
+  font-size: 14px;
+  color: $color-white;
+}
