@@ -25,7 +25,7 @@ const Tablet = ({ children }: any) => {
 const СharactersList: React.FC<СharacterListPropsType> = (props) => {
   const { character } = props;
   return (
-    <div className="container_grid">
+    <div className={styles.container_grid}>
       <ul className={styles.container}>
         {character.map(({ name, img, id }) => (
           <>
